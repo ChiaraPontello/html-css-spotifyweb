@@ -41,18 +41,18 @@ main {
 
 #side-bar {
     width: 250px;
-    background-color: red;
+    background-color: var(--color-black);
 }
 
 #main-content {
     width: calc(100% - 250px);
-    background-color: blue;
+    background-color: var(--color-dark-color);
     overflow-y: auto;
     padding: 90px 10px 0px 10px;
 }
 
 #call-to-action {
-    background-color: #acff2f3d;
+    background-color:rgba(0, 0, 0, 0.5);
     width: calc(100% - 250px);
     height: 70px;
     position: fixed;
@@ -64,7 +64,7 @@ main {
 #playbar {
     width: 100%;
     height: 90px;
-    background-color: green;
+    background-color: var(--color-dark-grey);
     position: fixed;
     z-index: 1000;
     bottom: 0;
