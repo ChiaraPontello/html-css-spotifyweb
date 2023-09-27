@@ -22,9 +22,7 @@ body {
     background-color: var(--color-dark-color);
 }
 
-h2 {
-    color: var(--color-white);
-}
+
 
 button {
     color: var(--color-white);
@@ -35,9 +33,28 @@ button {
     display:inline-block;
 }
 
+/*testo*/
+h2 {
+    color: var(--color-white);
+}
+
+p {
+    color: var(--color-white);
+}
+
+
+
 /*utility*/
 .flexer {
     display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
 }
 
 .px-10 {
@@ -111,9 +128,14 @@ main {
 
 
 
+/*card*/
+.card {
+    width: calc(100% / 6);
+}
 
-
-
+img {
+    width: 100%;
+}
 
 
 
@@ -133,3 +155,7 @@ main {
     left: 0;
 }
 
+
+
+
+/*media query*/
