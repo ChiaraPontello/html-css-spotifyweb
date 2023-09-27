@@ -192,7 +192,7 @@ main {
 }
 
 .icon {
-    width: 10%;
+    width: 15%;
     float: left;
     
 }
@@ -217,7 +217,7 @@ main {
 img {
     width: 100%;
     object-fit: contain;
-    
+    padding: 5px;
 }
 
 
@@ -238,7 +238,24 @@ img {
     left: 0;
 }
 
+.imgplay {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
 
+.left-content {
+    width: 250px;
+    
+}
+
+.center-content {
+    width: 250px;
+}
+
+.right-content {
+    width: 250px;
+}
 
 
 /*media query*/
