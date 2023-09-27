@@ -94,6 +94,7 @@ ul {
 
 .flex-between {
     justify-content: space-between;
+    
 }
 
 .flex-center {
@@ -103,6 +104,9 @@ ul {
 .align-center{
     align-items: center;
 }
+
+
+
 
 .column {
     flex-direction: column;
@@ -244,18 +248,7 @@ img {
     float: left;
 }
 
-.left-content {
-    width: 250px;
-    
-}
 
-.center-content {
-    width: 250px;
-}
-
-.right-content {
-    width: 250px;
-}
 
 
 /*media query*/
