@@ -42,7 +42,18 @@ p {
     color: var(--color-white);
 }
 
+span {
+    color: var(--color-grey);
+}
 
+a {
+    text-decoration: none;
+    color: var(--color-grey);
+}
+
+.text-center {
+    text-align: center;
+}
 
 /*utility*/
 .flexer {
@@ -55,6 +66,14 @@ p {
 
 .flex-start {
     justify-content: flex-start;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-center {
+    justify-content: center;
 }
 
 .px-10 {
