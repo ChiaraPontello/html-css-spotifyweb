@@ -319,10 +319,11 @@ img {
     }
 
     .nav {
-        display: flex;
+        display: flex wrap;
         justify-content: space-between;
         align-content: center;
-        font-size: 0.9em;
+        font-size: 0.8em;
+        
     }
 }
 
@@ -338,6 +339,14 @@ img {
     .icon-music {
         padding: 10px;
     }
+
+    .nav {
+        display: flex wrap;
+        justify-content: space-between;
+        align-content: center;
+        font-size: 0.5em;
+        
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -345,15 +354,20 @@ img {
         width: 80px; 
     }
 
+
+
     .logodue {
         display: block;
         width: 70%;
     }
 
-    .logo {
+    span {
         display: none;
     }
 
+   
+
+   
 
 
 }
