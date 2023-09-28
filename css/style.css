@@ -77,6 +77,10 @@ ul {
     list-style: none;
 }
 
+li {
+    padding-top: 5px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -209,7 +213,9 @@ main {
     
 }
 
-
+.volume {
+    margin-right: 10px;
+}
 
 /*logo + immagini*/
 .logo {
@@ -218,6 +224,7 @@ main {
 .logodue {
     display: none;
  }
+
 
 
 /*card*/
@@ -233,9 +240,13 @@ img {
 }
 
 
+.music {
+   
+}
 
-
-
+.volume {
+    
+}
 
 
 
@@ -267,6 +278,12 @@ img {
 .icon-grey {
     color: var(--color-grey);
 }
+
+.icon-music {
+    font-size: 1.2em;
+    
+}
+
 
 /*media query*/
 @media screen and (max-width: 1200px) {
@@ -305,5 +322,7 @@ img {
     .logo {
         display: none;
     }
+
+
 
 }
