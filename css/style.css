@@ -35,6 +35,8 @@ button {
    
 }
 
+
+
 .circle {
     border-radius: 50%;
 }
@@ -105,13 +107,7 @@ ul {
     align-items: center;
 }
 
-.playflex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-}
+
 
 
 
@@ -141,6 +137,9 @@ ul {
     padding-bottom: 20px;
 }
 
+.px-right40 {
+    padding-right: 70px;
+}
 .margin10 {
     margin: 10px;
 }
@@ -257,8 +256,17 @@ img {
     float: left;
 }
 
+.playflex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
 
-
+.icon-grey {
+    color: var(--color-grey);
+}
 
 /*media query*/
 @media screen and (max-width: 1200px) {
