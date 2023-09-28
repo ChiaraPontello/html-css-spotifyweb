@@ -74,7 +74,7 @@ a {
 a:hover {
     color: var(--color-white);
     text-decoration: underline var(--color-highlight);
-    
+
    
 }
 
@@ -265,6 +265,7 @@ img {
 
 
 
+
 /*playbar*/
 #playbar {
     width: 100%;
@@ -390,7 +391,15 @@ img {
         display: none;
     }
 
-    
+    #call-to-action {
+        background-color:rgba(0, 0, 0, 0.5);
+        width: calc(100% - 800px);
+        height: 70px;
+        position: fixed;
+        z-index:1000;
+        top: 0;
+        right: 0;
+    }
    
 
    
