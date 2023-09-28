@@ -1,6 +1,4 @@
-.debug {
-    border: 1px solid white;
-}
+
 
 * {
     margin: 0;
@@ -72,6 +70,20 @@ a {
     text-decoration: none;
     color: var(--color-grey);
 }
+
+a:hover {
+    color: var(--color-white);
+    
+   
+}
+
+span:hover {
+    color: var(--color-white);
+}
+
+
+
+
 
 ul {
     list-style: none;
@@ -292,13 +304,25 @@ img {
     
 }
 
+.icon-music:hover {
+    color: var(--color-highlight)
+}
+
 .music {
    width: 100%;
 }
 
+
+
+
+
+
+
 .music-bar{
     width: 100%;
 }
+
+
 
 
 /*media query*/
@@ -365,6 +389,7 @@ img {
         display: none;
     }
 
+    
    
 
    
