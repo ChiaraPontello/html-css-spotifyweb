@@ -144,6 +144,8 @@ li {
 .px-right40 {
     padding-right: 70px;
 }
+
+
 .margin10 {
     margin: 10px;
 }
@@ -151,6 +153,9 @@ li {
 .margin20 {
     margin: 20px;
 }
+
+
+
 
 .margin30 {
     margin: 30px;
@@ -212,6 +217,9 @@ main {
     float: left;
     
 }
+
+
+
 
 .volume {
     margin-right: 10px;
@@ -291,9 +299,7 @@ img {
 .music-bar{
     width: 100%;
 }
-.volume {
-    
-}
+
 
 /*media query*/
 @media screen and (max-width: 1200px) {
