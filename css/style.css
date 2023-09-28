@@ -317,11 +317,26 @@ img {
     .card {
         width: calc(100% / 3);
     }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        font-size: 0.9em;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .card {
         width: calc(100% / 2);
+    }
+
+    .boxplay {
+        width: 30%;
+    }
+
+    .icon-music {
+        padding: 10px;
     }
 }
 
