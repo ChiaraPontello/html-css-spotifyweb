@@ -240,13 +240,7 @@ img {
 }
 
 
-.music {
-   
-}
 
-.volume {
-    
-}
 
 
 
@@ -275,15 +269,31 @@ img {
     align-content: center;
 }
 
+.boxplay {
+    width: calc(100% / 3);
+}
+
+
+
 .icon-grey {
     color: var(--color-grey);
 }
 
 .icon-music {
-    font-size: 1.2em;
+    font-size: 1.3em;
     
 }
 
+.music {
+   width: 100%;
+}
+
+.music-bar{
+    width: 100%;
+}
+.volume {
+    
+}
 
 /*media query*/
 @media screen and (max-width: 1200px) {
