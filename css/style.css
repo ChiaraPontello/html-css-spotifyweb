@@ -291,6 +291,10 @@ img {
     align-content: center;
 }
 
+.nowrap {
+    flex-flow: nowrap;
+}
+
 .boxplay {
     width: calc(100% / 3);
 }
@@ -348,7 +352,8 @@ img {
         display: flex wrap;
         justify-content: space-between;
         align-content: center;
-        font-size: 0.8em;
+        font-size: 0kosfjkfs <a em; 
+
         
     }
 }
@@ -380,10 +385,12 @@ img {
         width: 80px; 
     }
 
-
+    .logo {
+        display: none;
+    }
 
     .logodue {
-        display: block;
+      
         width: 70%;
     }
 
@@ -393,16 +400,20 @@ img {
 
     #call-to-action {
         background-color:rgba(0, 0, 0, 0.5);
-        width: calc(100% - 800px);
+        width: calc(100% - 80px);
         height: 70px;
         position: fixed;
         z-index:1000;
         top: 0;
         right: 0;
     }
-   
 
-   
+    .playlist {
+        display: none;
+    }
+
+    #main-content {
+        width: calc(100% - 80px);
 
 
 }
