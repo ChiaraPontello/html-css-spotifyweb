@@ -3,413 +3,234 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Montserrat:wght@400;600&family=Noto+Sans:wght@300;600&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Spotify Web</title>
+    <title>Spotify</title>
 </head>
 <body>
     <div class="wrapper">
-<!--CALL TO ACTION-->
-        <div id="call-to-action">
-            
+        <div class="call-to-action medium-font">
+            <div class="button">
+                <a href="#" class="bt-upgrade">EFFETTUA L'UPGRADE</a>
+            </div>
         </div>
-        
-<!--SIDE-BAR -->
-        <main class="flexer">
-            <nav id="side-bar">
+        <main class="d-flex stretch">
+            <nav id="side-bar" class="small-font">
                 <div class="top-bar">
-                    <div>
-                        <img src="img/logo.svg" alt="logo" class="logo margin10">
-                        <img src="img/logo-small.svg" alt="logo" class="logodue">
+                    <img src="img/logo.svg" alt="logo spotify" class="logo">
+                    <img src="img/logo-small.svg" alt="small logo" class="small-logo">
+                    <ul class="list padding-x bold">
+                        <li class="side-green">
+                            <a href="#" class="grey-text"><i class="fa-solid fa-house padding-y"></i> <span class="hidden">Home</span></a>
+                        </li>
+                        <li class="side-green">
+                            <a href="#" class="grey-text"><i class="fa-solid fa-magnifying-glass padding-y"></i><span class="hidden">Cerca
+                            </span></a>
+                        </li>
+                        <li class="side-green">
+                            <a href="pages/library.html" class="grey-text"><i class="fa-solid fa-lines-leaning padding-y"></i><span class="hidden">La tua libreria</span></a>
+                        </li>
+                    </ul>
+                    <h4 class="padding-x hidden text-white">PLAYLIST</h4>
+                    <div class="d-flex align-center hidden grey-text bold small-padding-bottom">
+                        <a href="#"><i class="fa-solid fa-square-plus white grey-text"></i></a> <p class="padding-y">Crea Playlist</p>
                     </div>
-                    <div class="px-20">
-                        <ul class="flexer column" >
-                            <li>
-                                <a href="#">
-                                <img src="img/home.svg" alt="#" class="icon">
-                                <span class="font-small">Home</span>
-                                </a>
-                            </li>    
-                            <li>
-                                <a href="#">
-                                <img src="img/search.svg" alt="#" class="icon">
-                                <span class="font-small">Cerca</span>
-                                </a>
-                            </li> 
-                            <li>
-                                <a href="#">
-                                <img src="img/libreria.svg" alt="#" class="icon">
-                                <span class="font-small">La tua libreria</span>
-                                </a>
-                            </li> 
-                        </ul>  
-                        <div class="playlist">  
-                        <h4 class="py-10">PLAYLIST</h4>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                <i class="fa-solid fa-square-plus  "></i>
-                                <span >Crea Playlist</span> 
-                                </a>
-                            </li>
-                            
-                                <li>
-                                    <a href="#">
-                                    <span class="font-small ">Nome playlist</span>
-                                    </a>
-                                </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                <span class="font-small ">Nome playlist</span>
-                                </a>
-                            </li>
-                        </ul>
-                        </div>
+                    <ul class="line-height hidden playlist">
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                        <li><a href="#" class="grey-text bold">Nuova Playlist</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-bar">
+                    <div class="padding-x">
+                        <a href="#" class="grey-text"><i class="fa-regular fa-circle-down"></i><span class="hidden padding-y bold">Installa app</span></a>
                     </div>
-                </div>       
-                        
-                
-                
-                    
-                 <div class="bottom-bar playlist">
-                    <div class="px-20 flexer column">
-                        <div>
-                            <img src="img/download.svg" alt="" class="icon">
-                            <p class="font-small">Installa app</p>
-                        </div>
-                            <hr>
-                        <div>
-                            <img src="img/profile.svg" alt="" class="icon">
-                            <h4 class="py-10">John Doe</h4>
-                        </div>
+                    <div class="border-top"></div>
+                    <div class="profile d-flex align-center padding-x justify-start">
+                        <img src="img/profile.svg" alt="profile">
+                        <p class="bold hidden padding-y">Chiara</p>
                     </div>
-
-
-
-                 </div>
-                
-                
-                
-           
+                </div>
             </nav>
-            
-            
-      
-            
-            
-<section id="main-content">
-            
-            <ul class="flexer flex-center">
-                <li class="px-10 nav"><a href="#">IN EVIDENZA</a></li>
-                <li class="px-10 nav"><a href="#">PODCAST</a></li>
-                <li class="px-10 nav"><a href="#">CLASSIFICHE</a></li>
-                <li class="px-10 nav"><a href="#">GENERI E MOOD</a></li>
-                <li class="px-10 nav"><a href="#">NUOVE USCITE</a></li>
-                <li class="px-10 nav"><a href="#">SCOPRI</a></li>
-            
-            </ul>
-
-<!--RECENTI-->
-
-        <section id="recently">
-                <h2 class="py-20">Recently played</h2>
-            
-            <div class="album flexer wrap debug">
-                
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/metal_lifting.jpg" alt="cover">
+            <div id="main-content">
+                <nav class="padding-x">
+                    <ul class="d-flex justify-center small-font wrap">
+                        <li class="padding-y"><a href="#" class=" grey-text bold border-green">IN EVIDENZA</a></li>
+                        <li class="padding-y"><a href="#" class="grey-text bold border-green">PODCAST</a></li>
+                        <li class="padding-y"><a href="#" class="grey-text bold border-green">CLASSIFICHE</a></li>
+                        <li class="padding-y"><a href="#" class=" grey-text bold border-green">GENERI E MOOD</a></li>
+                        <li class="padding-y"><a href="#" class="grey-text bold border-green">NUOVE USCITE</a></li>
+                        <li class="padding-y"><a href="#" class="grey-text bold border-green">SCOPRI</a></li>
+                    </ul>
+                </nav>
+                <section id="recently" class="padding-x text-white padding-y">
+                    <h2>Recently played</h2>
+                    <div class="album d-flex wrap">
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/metal_lifting.jpg" alt="metal">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="text-center padding-x small-font">
+                                <span class="bold">Heavy Metal</span><br>
+                                <span class="opacity">Subtitle</span>
+                            </p>
+                        </div>
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/stranger.jpeg" alt="stranger things">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <div class="text-center padding-x small-font">
+                                <span class="bold">Stranger Things, Vol. 1 <br>(a Netflix Original Series Soundtrack) <br> </span>
+                                <span class="opacity">Kyle Dixon & Michael Stein</span>
+                            </div>
+                        </div>
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/aquietplace.jpeg" alt="a quite place">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="text-center padding-x small-font">
+                                <span class="bold">A quiet place</span><br>
+                                <span class="opacity">Subtitle</span>
+                            </p>
+                        </div>
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/split.jpeg" alt="split">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="text-center padding-x small-font">
+                                <span class="bold">Split</span><br>
+                                <span class="opacity">Subtitle</span>
+                            </p>
+                        </div>
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/cure.jpeg" alt="cure wellness">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="text-center padding-x small-font">
+                                <span class="bold">A cure wellness</span><br>
+                                <span class="opacity">Subtitle</span>
+                            </p>
+                        </div>
+                        <div class="cover padding-x">
+                            <div class="cover-img">
+                                <img src="img/sinister.jpeg" alt="sinister">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="text-center padding-x small-font">
+                                <span class="bold">Sinister</span><br>
+                                <span class="opacity">Subtitle</span>
+                            </p>
+                        </div>
                     </div>
-                    <div class="text-center">
-                        <h4>Heavy Metal</h4>
-                        <p class="p-grey">Subtitle</p>
+                </section>
+                <section id="creato-per" class="padding-x text-white padding-y">
+                    <h2>Creato per Chiara</h2>
+                    <p class="opacity padding-x small-font">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <div class="album d-flex justify-start">
+                        <div class="padding-x cover-mix">
+                            <div class="cover-img">
+                                <img src="img/radar.jpeg" alt="radar">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="padding-x small-font text-center bold">Release Radar</p>
+                        </div>
+                        <div class="padding-x cover-mix">
+                            <div class="cover-img">
+                                <img src="img/mixdaily.jpeg" alt="mix daily">
+                                <div class="hover-play d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="padding-x small-font text-center bold">Daily Mix 1</p>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/stranger.jpeg" alt="">
+                </section>
+                <section id="creato-per" class="padding-x text-white padding-y">
+                    <h2>Artisti più popolari</h2>
+                    <p class="opacity padding-x small-font">Più ascolti, più accurati saranno i suggerimenti.</p>
+                    <div class="album d-flex justify-start">
+                        <div class="padding-x cover-mix">
+                            <div class="cover-img">
+                                <img src="img/youg.jpeg" alt="lana del rey" class="circle">
+                                <div class="hover-play hover-play-circle d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="small-font text-center padding-x bold">Lana Del Rey</p>
+                        </div>
+                        <div class="padding-x cover-mix">
+                            <div class="cover-img">
+                                <img src="img/einaudi.jpeg" alt="enaudi" class="circle">
+                                <div class="hover-play hover-play-circle d-flex align-center justify-center">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                </div>
+                            </div>
+                            <p class="small-font text-center padding-x bold">Ludovico Einaudi</p>
+                        </div>
                     </div>
-                    <div class="text-center ">
-                        <h4>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
-                        <p class="p-grey">Kyle Dixon & Michael Stein</p>
-                    </div>
-                </div>
-
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/aquietplace.jpeg" alt="">
-                    </div>
-                    <div class="text-center ">
-                        <h4>A quiet place</h4>
-                        <p class="p-grey">Subtitle</p>
-                    </div>
-                </div>
-
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/split.jpeg" alt="">
-                    </div>
-                    <div class="text-center ">
-                        <h4>Split</h4>
-                        <p class="p-grey">Subtitle</p>
-                    </div>
-                </div>
-
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/cure.jpeg" alt="">
-                    </div>
-                    <div class="text-center ">
-                        <h4>Acure for wellness</h4>
-                        <p class="p-grey">Subtitle</p>
-                    </div>
-                </div>
-
-                <div class="card py-10 debug">
-                    <div class=" debug">
-                        <img src="img/sinister.jpeg" alt="">
-                    </div>
-                    <div class="text-center">
-                        <h4>Sinister</h4>
-                        <p class="p-grey">Subtitle</p>
-                    </div>
-                </div>
-             </div>
-        </section>
-<!--CREATO PER-->
-
-        <section id="creato">
-             <h2 class="py-20">Creato per John Doe</h2>
-             <p class="p-grey">Subtitle</p>
-            
-             <div class="album flexer debug">
-                 
-                 <div class="card py-10 debug">
-                     <div class="card-image debug">
-                         <img src="img/radar.jpeg" alt="">
-                     </div>
-                     <div class="text-center ">
-                         <h4>Relase Radar</h4>
-                     </div>
-                 </div>
-                 
-                 <div class="card py-10 debug">
-                     <div class="card-image debug">
-                         <img src="img/mixdaily.jpeg" alt="">
-                     </div>
-                     <div class="text-center ">
-                         <h4>Daily Mix 1</h4>
-                     </div>
-                 </div>
+                </section>
             </div>
-        </section>
-<!--ARTISTI POPOLARI-->     
-        <section id="popolari">
-             <h2 class="py-20">Artisti popolari</h2>
-             <p class="p-grey">Subtitle</p>
-            
-             <div class="album flexer debug">
-                 
-                 <div class="card py-10 debug">
-                     <div class="card-image debug">
-                         <img class="circle" src="img/youg.jpeg" alt="">
-                     </div>
-                     <div class="text-center ">
-                         <h4>Lana Del Rey</h4>
-                     </div>
-                 </div>
-                 
-                 <div class="card py-10 debug">
-                     <div class="card-image debug">
-                         <img class="circle" src="img/einaudi.jpeg" alt="">
-                     </div>
-                     <div class="text-center ">
-                         <h4>Einaudi</h4>
-                     </div>
-                 </div>  
-             </div>
-        </section>
-</section>
-           
         </main>
-        
-        
-        
-        
-<!--PLAYBAR-->
-        
-<section id="playbar">
-        
-        
-        
-        
-        
-        
-    <div class="playflex nowrap">
-            
-    <!--sinistra-->
-            <div class="playflex ">
-                <img src="img/sinister.jpeg" alt="" class="imgplay">
-                
-                
-                <div class="column px-right40 py-20 ">
-                <div class="px-10">Sinister</div> 
-                <div class="p-grey font-small">Brano Nome</div>
+        <div id="play-bar" class="d-flex space-between">
+            <div class="d-flex align-center song text-white padding-y">
+                <div class="soundwave-container">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
                 </div>
-            
-           
-                <div>
-                <i class="fa-regular fa-heart icon-grey"></i>
-                <i class="fa-regular fa-folder icon-grey"></i>
+                <img src="img/sinister.jpeg" alt="sinister">
+                <p class="padding-y small-font">
+                    <span class="underline">Sinister</span><br>
+                    <span class="opacity underline">Brano Nome</span>
+                </p>
+                <p class="opacity padding-y"><i class="fa-regular fa-heart big-font green"></i> <i class="fa-regular fa-folder big-font green"></i></p>
+            </div>
+            <div class="text-white song">
+                <div class="play d-flex justify-center">
+                    <i class="fa-solid fa-shuffle padding-y big-font green"></i>
+                    <i class="fa-solid fa-backward-step padding-y big-font green"></i>
+                    <i class="fa-regular fa-circle-play padding-y big-font green"></i>
+                    <i class="fa-solid fa-forward-step padding-y big-font green"></i>
+                    <i class="fa-solid fa-rotate-right padding-y big-font green"></i>
+                </div>
+                <div class="small-font d-flex align-center">
+                    <p class="padding-y">0.23</p>
+                    <input type="range" class="play-bar">
+                    <p class="padding-y">4.35</p>
                 </div>
             </div>
-   
-        
-        
-<!--centro-->
-
-        <div class=" playflex boxplay  ">
-                
-            <div class="flex playflex flex-center">
-                <div class=" py-10  playflex nowrap">
-                    <i class="fa-solid fa-shuffle icon-music px-20 "></i>
-                    <i class="fa-solid fa-backward-step icon-music px-20 "></i>
-                    <i class="fa-regular fa-circle-play icon-music px-20 "></i>
-                    <i class="fa-solid fa-forward-step icon-music px-20 "></i>
-                    <i class="fa-solid fa-rotate-right icon-music px-20 "></i>
-                </div>
-                <div class="flexer flex-center  music-bar">
-                    <span class="text-white px-10">0:25</span>
-                    <input type="range" class="music">
-                    <span class="text-white px-10">4:35</span>
-                </div>
-            </div>
-            
-         </div>   
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-
-            
-        
-        
-    
-<!--destra-->
-        <div class=" playflex">
-            <div>
-                <i class="fa-solid fa-list px-10"></i>
-                <i class="fa-solid fa-desktop px-10"></i>
-            </div>
-        
-            <div class="flex  flex-end">
-                <i class="fa-solid fa-volume-high px-10 "></i>
-                <input type="range" class="volume">
+            <div class="text-white song d-flex align-center justify-end padding-y">
+                <i class="fa-solid fa-bars padding-y green"></i>
+                <i class="fa-solid fa-tv padding-y green"></i>
+                <i class="fa-solid fa-volume-high padding-y green"></i>
+                <input type="range" class="volume-bar">
             </div>
         </div>
-        
-        
-    </div> 
-
-
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-        
-        
-   
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
+    </div>
 </body>
 </html>
